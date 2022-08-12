@@ -1,0 +1,40 @@
+
+
+      h1 {
+          color: orange;  font-family: sans-serif; line-height: 1px;  text-align: center;
+      
+      }
+      
+      ul {
+          background-color: azure; text-align: center; 
+      }
+      
+      .background {
+          background-color: aqua;
+      }
+      
+      
+      p {
+        font-weight: 600; font-size: 2em; text-align: center; 
+      }
+      
+      body {
+        font-size: 16px;
+      }
+      
+      #amarelo {
+        background-color: yellow;
+      }
+      
+      #vermelho {
+        background-color: red;
+      }
+      
+      #marrom {
+        background-color: brown;
+      }
+
+    
+      
+      
+       
