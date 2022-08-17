@@ -1,0 +1,11 @@
+body { margin: 50px;
+    text-align: center;
+}
+
+ul:hover { background-color: black; color: aquamarine; font-family: Impact, sans-serif;
+text-align: left;
+}
+
+ul {
+    list-style: none;
+}
