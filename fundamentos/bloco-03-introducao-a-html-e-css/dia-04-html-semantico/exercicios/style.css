@@ -1,43 +1,96 @@
-body {
+body {color: rgb(34, 34, 34);
     margin-left: 30px;
+    font-family: Roboto,sans-serif;
+    
 }
 
 img { float: left;
 height: 180px ;
 }
 
+.nav-links {
+    text-align: center;
+    width: 1159px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    background-color: beige;
+    
+    
+    
+}
+
 .nav-links li {
-    display: inline-block;
-    margin-right: 25px ;
+    
+    display: inline;
+    margin-right: 5px ;
+    margin-left: 5px;
+    
+    
+    
 }
 
 section {
     width: 900px;
+    margin-bottom: 40px;
 }
 
 .space {
     height: 180px;
-    width: 900px;
+    width: 1140px;
+    background-color: rgb(212, 212, 173);
+    padding: 10px;
 }
 
 .violeta {
-    margin-left: 508px;
+    
+    margin-left: 608px;
 }
 
 .escudo {
-    margin-left: 510px;
+    margin-left: 615px;
 }
 
 .soco {
-    margin-left: 410px;
+    margin-left: 500px;
 }
 
 
 .space p {
+    
     text-align: center;
     margin-left: 250px;
 }
 
 h1 {
+    text-align: center;
+    background-color: rgb(212, 212, 173);
+    padding: 20px;
+    width: 1120px;
+}
+
+aside {
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    line-height: 25px;
+    background-color: beige;
+    padding: 15px;
+    
+}
+
+h2 {top: 20px;
+    
     width: 900px;
+}
+
+span {
+    font-size: 20px;
+}
+
+#first {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 55px;
+
 }
