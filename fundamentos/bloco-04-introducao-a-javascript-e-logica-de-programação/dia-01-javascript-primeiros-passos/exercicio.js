@@ -56,7 +56,39 @@ if (internalAngle1 + internalAngle2 + internalAngle3 == 180) {
     console.log(true)
 } else { console.log(false)
     
-}*/ 
+}*/
 
+/*---------------------------------------------------------------*/
+
+/*const nomePeca = "rei"; 
+
+if (nomePeca === "bispo") {
+    console.log("diagonal quantas casas quiser");
+} else if (nomePeca === "cavalo") {
+    console.log("movimento em L, 3 casas e 2 casas eixo x e y"); }
+else if (nomePeca === "rei") {
+    console.log("eixo x ou y quantas casas quiser")
+} else if (nomePeca === "rainha") {
+    console.log("eixo x,y ou diagonal quantas casas quiser")
+} else if (nomePeca === "torre") {
+    console.log("eixo x ou y quantas casas quiser")
+} else if (nomePeca === "peao") {
+    console.log("eixo x ou y apenas uma casa")
+} else { 
+    console.log("peça não encontrada!")
+}*/
+
+/*---------------------------------------------------------------*/
+
+/*let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+
+groceryList.push('Abacate')
+
+for (let indice = 0; indice < groceryList.length; indice += 1)
+{
+    console.log(groceryList[indice])
+}*/
+
+/*---------------------------------------------------------------*/
 
 
