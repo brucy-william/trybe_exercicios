@@ -91,4 +91,9 @@ for (let indice = 0; indice < groceryList.length; indice += 1)
 
 /*---------------------------------------------------------------*/
 
+let notaDada = 90;
+
+if (notaDada >= 90) {
+    console.log("ok");
+}
 
