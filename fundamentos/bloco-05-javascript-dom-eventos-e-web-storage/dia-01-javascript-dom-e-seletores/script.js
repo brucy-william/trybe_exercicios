@@ -1,9 +1,0 @@
-document.getElementsByTagName("h1")[0].style.backgroundColor = "#32a791";
-document.getElementsByClassName("black")[0].style.backgroundColor = "black";
-document.getElementsByClassName("black")[1].style.backgroundColor = "black";
-document.getElementsByClassName("no-emergency-tasks")[0].style.backgroundColor = "#d2953b";
-document.getElementsByClassName("emergency-tasks")[0].style.backgroundColor = "pink";
-document.getElementsByTagName("h3")[0].style.backgroundColor = "purple";
-document.getElementsByTagName("h3")[1].style.backgroundColor = "purple";
-document.getElementById("footer-container").style.backgroundColor = "#023031";
-let marginFooter = document.getElementById("footer-container");
