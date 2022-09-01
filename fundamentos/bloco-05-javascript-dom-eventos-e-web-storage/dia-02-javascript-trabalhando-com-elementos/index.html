@@ -65,6 +65,26 @@
         let main = document.createElement("main");
         main.className = ("main-content");
         body.appendChild(main);
+
+        let sectionCenterContent = document.createElement("section");
+        sectionCenterContent.className = ("center-content");
+        main.appendChild(sectionCenterContent);
+
+        let paragraph1 = document.createElement("p");
+        paragraph1.innerText = "Adorando isso aqui gente :D!";
+        sectionCenterContent.appendChild(paragraph1);
+
+        let sectionLeftContent = document.createElement("section");
+        sectionLeftContent.className = ("left-content");
+        main.appendChild(sectionLeftContent);
+
+        let sectionRightContent = document.createElement("section");
+        sectionRightContent.className = ("right-content");
+        main.appendChild(sectionRightContent);
+
+        
+
+
       // COLOQUE SEU CÓDIGO AQUI
     </script>
   </body>
