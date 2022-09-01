@@ -58,14 +58,16 @@
   <body>
     <script>
         let body = document.getElementsByTagName("body")[0];
+
         let h1Exercicios = document.createElement("h1");
         h1Exercicios.innerText = "Exercício 5.2";
+        h1Exercicios.className = ("title");
         body.appendChild(h1Exercicios);
 
         let main = document.createElement("main");
         main.className = ("main-content");
         body.appendChild(main);
-
+       
         let sectionCenterContent = document.createElement("section");
         sectionCenterContent.className = ("center-content");
         main.appendChild(sectionCenterContent);
@@ -81,6 +83,7 @@
         let sectionRightContent = document.createElement("section");
         sectionRightContent.className = ("right-content");
         main.appendChild(sectionRightContent);
+        sectionRightContent.style.marginRight = "auto";
 
         let img = document.createElement("img");
         img.className = ("small-image");
@@ -90,15 +93,28 @@
         let unorderedList = document.createElement("ul");
         for (let index = 1; index <= 10; index += 1) {
            let index = document.createElement("li");
-           index.innerText = "1,2,3,4,5,6,7,8,9,10";          
+           index.innerText = "12";          
             unorderedList.appendChild(index);}
         sectionRightContent.appendChild(unorderedList);
 
         for (let index = 1; index <= 3; index += 1){
             let index = document.createElement("h3");
-            main.appendChild(index)
+            main.appendChild(index);}
+
+        let h3s = document.getElementsByTagName("h3");
+
+        for (let index = 0; index < h3s.length; index += 1) {
+            h3s[index].className = "description";
         }
-        console.log(main);
+        
+        main.removeChild(sectionLeftContent);
+        console.log(unorderedList);
+
+
+
+
+
+        
 
 
 
