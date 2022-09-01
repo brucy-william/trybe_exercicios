@@ -71,6 +71,7 @@
         let sectionCenterContent = document.createElement("section");
         sectionCenterContent.className = ("center-content");
         main.appendChild(sectionCenterContent);
+        sectionCenterContent.parentNode.style.backgroundColor = 'green';
 
         let paragraph1 = document.createElement("p");
         paragraph1.innerText = "Adorando isso aqui gente :D!";
@@ -91,24 +92,32 @@
         sectionLeftContent.appendChild(img);
 
         let unorderedList = document.createElement("ul");
-        for (let index = 1; index <= 10; index += 1) {
-           let index = document.createElement("li");
-           index.innerText = "12";          
-            unorderedList.appendChild(index);}
         sectionRightContent.appendChild(unorderedList);
+        let linum = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez'];
 
-        for (let index = 1; index <= 3; index += 1){
-            let index = document.createElement("h3");
-            main.appendChild(index);}
+        for (let index = 0; index < linum.length; index += 1) {
+           let elementoli = document.createElement("li");
+           elementoli.innerText = linum[index];          
+            unorderedList.appendChild(elementoli);}
+        
+
+        for (let index = 1; index <= 3; index += 1) {
+        let elementoh3 = document.createElement('h3');
+        elementoh3.innerText = 'Show ' + index;
+        main.appendChild(elementoh3);
+      }
 
         let h3s = document.getElementsByTagName("h3");
 
         for (let index = 0; index < h3s.length; index += 1) {
             h3s[index].className = "description";
         }
-        
+       
         main.removeChild(sectionLeftContent);
-        console.log(unorderedList);
+        unorderedList.lastChild.remove();
+        unorderedList.lastChild.remove();
+        
 
 
 
