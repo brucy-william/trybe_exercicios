@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(105, 105, 105);
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+}
+
+button:active {
+    background-color: rgb(85, 15, 150);
+    font-weight: bold;
+}
