@@ -20,6 +20,15 @@ const employeeGenerator = (fullName) => {
 
 
 
+
+
+
+
+
+
+
+
+
 // EXERCICIO 2 ---
 // Desenvolva uma HOF que retorna o resultado de um sorteio. 
 // Esta HOF irá gerar um número aleatório entre 1 e 5 recebendo 
@@ -43,6 +52,17 @@ else {return 'perdeu'};
 
 // RESULT ---
 // console.log(loteriaSorteio(5, funcCheck));
+
+
+
+
+
+
+
+
+
+
+
 
 // EXERCICIO 3 ---
 // Crie uma HOF que receberá três parâmetros:
@@ -83,7 +103,7 @@ const Avaliador = (arrayGabarito, arrayRespostas, callback) => {
  return callback(arrayGabarito, arrayRespostas);
 };
 
-
-console.log(Avaliador(['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'], ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'], sumPoints));
+// RESULT ---
+// console.log(Avaliador(['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'], ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'], sumPoints));
 
 
